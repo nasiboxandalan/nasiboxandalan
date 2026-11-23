@@ -1,0 +1,8 @@
+{
+  "name": "Agenda Klaten",
+  "description": "Direktori Acara & Konsumsi Warga Klaten oleh Nasi Box Andalan. Temukan agenda acara di Klaten, bagikan kartu acara, dan pesan nasi box untuk acara Anda.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

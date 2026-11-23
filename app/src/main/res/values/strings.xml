@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Agenda Klaten</string>
+    <string name="brand_tagline">Direktori Acara &amp; Konsumsi Warga Klaten</string>
+    <string name="owner_name">Nasi Box Andalan</string>
+    <string name="owner_address">Depan Pintu Masuk RSI Klaten</string>
+    <string name="cd_whatsapp_floating">Chat WhatsApp Nasi Box Andalan</string>
+    <string name="cd_hero_banner">Ilustrasi arena acara warga Klaten</string>
+    <string name="cd_back">Kembali</string>
+    <string name="cd_search_clear">Hapus pencarian</string>
+</resources>

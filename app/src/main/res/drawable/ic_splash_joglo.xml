@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer soft badge -->
+    <path
+        android:fillColor="#1F5C3A"
+        android:pathData="M54,18 A36,36 0 1,1 53.99,18 Z" />
+    <!-- Joglo roof upper pyramid -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M54,30 L67,44 L41,44 Z" />
+    <!-- Joglo lower eaves -->
+    <path
+        android:fillColor="#FFFBF2"
+        android:pathData="M36,44 L72,44 L78,53 L30,53 Z" />
+    <!-- Pendopo pillars and base -->
+    <path
+        android:fillColor="#FFFBF2"
+        android:pathData="M37,55 L41,55 L41,69 L37,69 Z M52,55 L56,55 L56,69 L52,69 Z M67,55 L71,55 L71,69 L67,69 Z M32,69 L76,69 L76,74 L32,74 Z" />
+</vector>
