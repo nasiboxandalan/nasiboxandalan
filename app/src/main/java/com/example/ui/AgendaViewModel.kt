@@ -1,5 +1,8 @@
 package com.example.ui
 
+import androidx.lifecycle.viewModelScope
+import com.example.data.RemoteEvents
+import kotlinx.coroutines.launch
 import android.content.Context
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -145,6 +148,17 @@ data class AgendaUiState(
 class AgendaViewModel : ViewModel() {
     private val _uiState = MutableStateFlow(AgendaUiState())
     val uiState: StateFlow<AgendaUiState> = _uiState.asStateFlow()
+        fun refreshEvents(context: android.content.Context) {
+        val appContext = context.applicationContext
+        viewModelScope.launch {
+            RemoteEvents.loadCached(appContext)?.let { cached ->
+                _uiState.update { it.copy(allEvents = cached) }
+            }
+            RemoteEvents.fetch(appContext)?.let { fresh ->
+                _uiState.update { it.copy(allEvents = fresh) }
+            }
+        }
+    }
 
     private var initializedFromContext = false
 
