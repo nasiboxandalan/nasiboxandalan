@@ -1,0 +1,22 @@
+{
+  "events": [
+    {
+      "id": "evt-1",
+      "slug": "sambung-rasa-klaten-2027",
+      "judul": "Sambung Rasa Klaten 2027",
+      "kategori": "PEMERINTAHAN",
+      "tanggalMulai": "2027-04-05",
+      "tanggalSelesai": null,
+      "keteranganTanggal": null,
+      "jam": null,
+      "lokasi": "Klaten (lokasi menunggu informasi resmi)",
+      "penyelenggara": "Pemkab Klaten",
+      "deskripsi": "Program tahunan Pemkab Klaten, dijadwalkan 5 April 2027.",
+      "caraDaftar": "Ikuti jadwal resmi Pemkab Klaten.",
+      "status": "DIJADWALKAN",
+      "sumberLabel": "Metro TV News",
+      "sumberUrl": "https://www.metrotvnews.com/play/b7WCrE3J-program-sambung-rasa-klaten-2026-resmi-ditutup",
+      "butuhKonsumsi": true
+    }
+  ]
+}
