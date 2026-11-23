@@ -87,6 +87,7 @@ fun AgendaKlatenApp(
         currentRoute == Routes.KONSUMSI
 
     val context = LocalContext.current
+    LaunchedEffect(Unit) { viewModel.refreshEvents(context) }
     val snackbarHostState = remember { SnackbarHostState() }
     val coroutineScope = rememberCoroutineScope()
 
